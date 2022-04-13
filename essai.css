@@ -2,25 +2,62 @@ body{
     margin: 0;
     padding: 0;
 }
-.wrapper{
-    position: relative;
-    overflow: hidden;
+.page1{
     width: 100%;
     height: 100%;
     background: linear-gradient(90deg, rgba(2,0,.6,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    display: flex;
 }
 h2{
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    top: 50%;
-    left: 30%;
-    transform: translate(-50%,-50%);
-    font-size: 50px;
-    font-weight: bold;
-    color: #fff;
-    text-transform: uppercase;
-    margin: 0;
+    color: white;
+    font-size: 3rem;
+    margin: auto;
+    margin-left: 20%;
+    margin-top: 15%;
 }
-.ig{
-    text-align: right;
+.tof{
+    margin-top: 5%;
+    margin-bottom: 20%;
+    margin-right: 30%;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(90deg, rgba(2,0,.6,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+    
+}
+nav ul{
+    display: flex;
+    margin-left: 40%;
+    margin-top: 5%;
+    list-style-type: none;  
+}
+nav ul li{
+    margin-left: 30px;
+    color: white;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav h1{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+h2 a{
+    text-decoration: none;
+    color: aqua;
+}
+.page2{
+    display: flex;
+    margin-left: 35%;
+    margin-top: 150px;
+}
+.about{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+li a:hover{
+    background-color: brown;
 }
