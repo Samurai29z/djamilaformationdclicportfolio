@@ -7,18 +7,18 @@ body{
     height: 100%;
     background: linear-gradient(90deg, rgba(2,0,.6,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     display: flex;
+    justify-content: center;
 }
 h2{
     color: white;
     font-size: 3rem;
-    margin: auto;
-    margin-left: 20%;
-    margin-top: 15%;
+    margin-top: 20%;
+    
 }
 .tof{
     margin-top: 5%;
     margin-bottom: 20%;
-    margin-right: 30%;
+    margin-right: 150px;
 }
 nav{
     display: flex;
@@ -49,10 +49,14 @@ h2 a{
     text-decoration: none;
     color: aqua;
 }
+h2 a:hover{
+    background-color: brown;
+}
 .page2{
     display: flex;
-    margin-left: 35%;
     margin-top: 150px;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
 }
 .about{
     margin-top: 30px;
@@ -60,4 +64,54 @@ h2 a{
 }
 li a:hover{
     background-color: brown;
+}
+.page2 button{
+    background-color: black;
+    color: white;
+}
+.page3{
+    background-color: darkgrey;
+}
+.capture{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.page3 button{
+    background-color:black ;
+    color: white;
+    margin-top: 5%;
+    margin-left: 13%;
+}
+.pagee3{
+    background-color: rgb(130, 133, 133);
+    display: flex;
+    justify-content: space-around;
+}
+.text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.progres{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.page4{
+    background-color: rgba(0,212,255,1);
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.servic{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.contac{
+    margin-top: 80px;
+    margin-bottom: 100px;
 }
