@@ -5,7 +5,10 @@ body{
 .page1{
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, rgba(2,0,.6,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgb(2, 0, 1) 0%, rgb(9, 9, 121) 35%, rgba(0, 213, 255, 0.582) 100%),url(blue-gradient-designify.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
     display: flex;
     justify-content: center;
 }
@@ -13,12 +16,6 @@ h2{
     color: white;
     font-size: 3rem;
     margin-top: 20%;
-    
-}
-.tof{
-    margin-top: 5%;
-    margin-bottom: 20%;
-    margin-right: 150px;
 }
 nav{
     display: flex;
@@ -52,18 +49,19 @@ h2 a{
 h2 a:hover{
     background-color: brown;
 }
+li a:hover{
+    background-color: burlywood;
+}
 .page2{
     display: flex;
     margin-top: 150px;
+    margin-bottom: 100px;
     justify-content: center;
     font-family: 'Times New Roman', Times, serif;
 }
 .about{
     margin-top: 30px;
     margin-left: 20px;
-}
-li a:hover{
-    background-color: brown;
 }
 .page2 button{
     background-color: black;
@@ -84,7 +82,7 @@ li a:hover{
     margin-left: 13%;
 }
 .pagee3{
-    background-color: rgb(130, 133, 133);
+    background-color: rgb(178, 180, 180);
     display: flex;
     justify-content: space-around;
 }
@@ -98,7 +96,7 @@ li a:hover{
     margin-bottom: 50px;
 }
 .page4{
-    background-color: rgba(0,212,255,1);
+    background-color: rgb(27, 95, 197);
     display: flex;
     justify-content: space-around;
     font-family: 'Times New Roman', Times, serif;
