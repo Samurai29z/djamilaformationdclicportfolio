@@ -1,8 +1,14 @@
+@font-face{
+    font-family: 'Quicksand';
+    src: url(quicksand/Quicksand-Regular.ttf);
+}
+
 body{
     margin: 0;
     padding: 0;
     position: absolute;
-    z-index: 1;
+    width: 100vw;
+    overflow-x: hidden;
 }
 nav{
     display: flex;
@@ -12,6 +18,7 @@ nav{
     position: fixed;
     width: 100%;
     z-index: 3;
+    font-family: "Quicksand",sans-serif;
 }
 nav ul{
     display: flex;
@@ -37,36 +44,52 @@ li a:hover{
     background-color: burlywood;
 }
 .page1{
-    width: 150%;
+ 
+    width: 100%;
     height: 1300px;
     position: relative;
     z-index: 2;
-    background: linear-gradient(90deg, rgb(2, 0, 1) 0%, rgb(9, 9, 121) 35%, rgba(0, 213, 255, 0.582) 100%),url(images/blue.png)  no-repeat top right;
+    background: url(images/blue.png);
     display: flex;
+    background-size: 1050px 1000px;
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
+.page1::after{
+    content: '';
+    inset: 0;
+    position: absolute;
+    background: linear-gradient(90deg, rgb(2, 0, 1) 0%, rgb(9, 9, 121) 35%, rgba(0, 213, 255, 0.582) 100%);
+    z-index: -1;
 
+}
 .texte{
     color: aliceblue;
     position: relative;
     margin-left: 30%;
     margin-top: 20%;
+    font-family: "Quicksand",sans-serif;
 }
 .texte1{
     font-size: 35px;
 }
 .texte2{
     font-size: 50px;
-    color: navajowhite;
+    color: transparent;
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.521);
 
 }
 .texte3{
-    font-size: 20px;
+    font-size: 40px;
 }
 .texte4 a{
     text-decoration: none;
-    color: aqua;
-    font-size: 20px;
+    color: rgb(27, 95, 197);
+    font-size: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 20px;
 }
 .texte4 a:hover{
     background-color: burlywood;
@@ -146,13 +169,13 @@ li a:hover{
     margin-top: 150px;
     margin-bottom: 100px;
     justify-content: center;
-    font-family: 'Times New Roman', Times, serif;
-    width: 150%;
+    font-family: "Quicksand",sans-serif;
+    /* font-size: 20px; */
+    width: 100%;
 }
 .about{
     margin-top: 30px;
     margin-left: 20px;
-    font: 2em sans-serif;
 }
 .page2 button{
     background-color: black;
@@ -160,7 +183,7 @@ li a:hover{
 }
 .page3{
     background-color: darkgrey;
-    width: 150%;
+    width: 100%;
     height: 1000px;
 }
 .capture{
@@ -183,13 +206,13 @@ li a:hover{
     background-color: rgb(178, 180, 180);
     display: flex;
     justify-content: space-around;
-    width: 150%;
+    width: 100%;
 }
 .text{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Quicksand",sans-serif;
     margin-top: 200px;
     margin-bottom: 200px;
-    font-size: 2rem;
+    /* font-size: 20px; */
 }
 .progres{
     margin-top: 200px;
@@ -199,10 +222,9 @@ li a:hover{
     background-color: rgb(27, 95, 197); 
     display: flex;
     justify-content: space-around;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-family: "Quicksand",sans-serif;
     color: white;
-    width: 150%;
+    width: 100%;
 }
 .logo{
     margin-top: 50px;
@@ -217,5 +239,5 @@ li a:hover{
     margin-bottom: 100px;
 }
 .suplement{
-    margin-left: 70%;
+    margin-left: 40%;
 }
