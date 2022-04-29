@@ -243,6 +243,7 @@ body{
     float: calc(
     );
 }
+/*barre de navigation*/
  nav{
     background: rgb(27, 95, 197);
     color: white;
@@ -275,6 +276,7 @@ nav li a:hover{
 .hamburger{
     display: none;
 }
+/*premiére page*/
 .page1{
  
     width: 100%;
@@ -397,6 +399,8 @@ nav li a:hover{
 }
 }
 /* fin animation */
+/*fin premiére page*/
+/*deuxiéme page*/
 .page2{
     display: flex;
     justify-content: center;
@@ -434,7 +438,7 @@ nav li a:hover{
     text-decoration: none;
     color: white;
 }
-}
+/*troisiéme page*/
 .page3{
     width: 100%;
     height: 1000px;
@@ -516,6 +520,7 @@ text-decoration-style: dashed;
 #file{
     width: 80%;
 }
+/*quatriéme page*/
 .footer{
     background-color: rgb(27, 95, 197);
     display: flex;
