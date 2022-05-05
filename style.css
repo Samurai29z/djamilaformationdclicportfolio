@@ -23,222 +23,16 @@
 /*fin responsivité petit ecran*/
 
 /*responsivité ecran mobile*/
- @media screen and(max-width: 390px){
-    body{
-        margin: 0;
-        padding: 0;
-        position: absolute;
-        width: 390px;
-        overflow-x: hidden;
-        float: calc(
-        );
-    }
-     nav{
-        background: rgb(27, 95, 197);
-        color: white;
-        position: fixed;
-        width: 390px;
-        height: 100px;
-        z-index: 3;
-        font-family: "Quicksand",sans-serif; 
-    }
-    nav ul{
-        display: none;
-        justify-content: space-around;
-        margin-top: 30px;
-        list-style-type: none;  
-    }
-    nav ul li a{
-        text-decoration: none;
-        color: white;
-        font-size: 20px;
-        cursor: pointer;
-    }
-    nav h1{
-        margin-left: 20%;
-        margin-top: 10px;
-        font-size: 20px;
-    }
-    .hamburger{
-        visibility: hidden;
-    }
-    .page1{
-     
-        width: 390px;
-        height: 800px;
-        position: relative;
-        z-index: 2;
-        background: url(images/blue.png);
-        display: flex;
-        background-size: 300px 300px;
-        background-position: right;
-        background-repeat: no-repeat;
-    }
-    
-    .page1::after{
-        content: '';
-        inset: 0;
-        position: absolute;
-        background: linear-gradient(90deg, rgb(2 0 1 / 99%) 0%, rgb(9, 9, 121) 35%, rgba(0, 213, 255, 0.582) 100%);
-        z-index: -1;
-    
-    }
-    .texte{
-        height: 10%;
-        width: 50%;
-        color: aliceblue;
-        position: relative;
-        margin-left: 15%;
-        margin-top: 5%;
-        font-family: "Quicksand",sans-serif;
-    } 
-    .texte1{
-        font-size: 18px;
-    }
-    .texte2{
-        font-size: 30px;
-        color: transparent;
-        -webkit-text-stroke: 2px rgba(255, 255, 255, 0.521);
-    
-    }
-    .texte3{
-        font-size: 15px;
-    }
-    .texte4 a{
-        text-decoration: none;
-        color: rgb(27, 95, 197);
-        background-color: rgb(255, 255, 255);
-        border-radius: 20px;
-        padding: 10px;
-    }
-    .texte4 a:hover{
-        background-color: burlywood;
-    }
-    .page2{
-        justify-content: center;
-        font-family: "Quicksand",sans-serif;
-        width: 390px;
-        height: 900px; 
-    }
-    .image{
-        width: 330px;
-        height: 500px;
-        border-radius: 50%;
-        border: 10px solid rgba(33, 7, 177, 0.8);
-        background-image: url(images/pexels-mikhail-nilov-8937868-removebg-preview.png);
-        background-repeat: no-repeat;
-        margin-left: 20px;
-        margin-top: 20px
-    }
-    .apropos{
-        justify-content: center;
-        font-size: 23px;
-        margin-left:50px
-    }
-    .one{
-        background-color: rgb(126, 54, 194);
-        color: white;
-        border-radius: 100px;
-    }
-    .two{
-        background-color: rgb(27, 95, 197);;
-        color: blanchedalmond;
-        border-radius: 1000px;
-        height: 50px;
-    }
-    .page3{
-        width: 390px;
-        height: 2000px;
-    }
-    .capture{
-        margin-left:20px
-    }
-    .capt1{
-        width: 330px;
-        height: 500px;
-        border-radius: 10%;
-        border: 3px solid #002eff;
-        background-image: url(images/écran.png);
-        background-repeat: no-repeat;
-        background-size: 250px 500px;
-        background-position: center;
-    }
-    .capt2{
-        width: 330px;
-        height: 500px;
-        border-radius: 10%;
-        border: 3px solid #002eff;
-        background-image: url(images/Capture.png);
-        background-repeat: no-repeat;
-        background-size: 280px 500px;
-        background-position: center;
-        margin-top:20px;
-    }
-    .capt3{
-        width: 330px;
-        height: 500px;
-        border-radius: 10%;
-        border: 3px solid #002eff;
-        background-image: url(images/2022.png);
-        background-repeat: no-repeat;
-        background-size: 280px 500px;
-        background-position: center;
-        margin-top:20px;
-    }
-    .pagee3{
-        width: 390px;
-        height: 300px;
-    }
-    .text{
-        width: 330px;
-        text-align: center;
-        font-size: 15px;
-        font-family:"Quicksand",sans-serif ;
-        margin-left:20px
-    }
-    .progres{
-        width: 330px;
-        text-align: center;
-        margin-top:50px;
-    
-    }
-    #file{
-        width: 80%;
-    }
-    .footer{
-        background-color: rgb(27, 95, 197);
-        display: flex;
-        justify-content: space-around;
-        font-family: "Quicksand",sans-serif;
-        color: white;
-        width: 390px;
-        font-size:10px
-    }
-    .logo{
-        margin-top: 50px;
-        margin-bottom: 100px;
-    }
-    .servic{
-        margin-top: 80px;
-        margin-bottom: 100px;
-    }
-    .contac{
-        margin-top: 80px;
-        margin-bottom: 100px;
-    }
-    i{
-        margin-right: 10px;
-    }
-    .suplement{
-        margin-left: 20%;
-    }
-} 
+ @media screen and(max-width: 400px){
+
+ }
+   
    /* fin responsivité ecran mobile */
 body{
     margin: 0;
     padding: 0;
     position: absolute;
-    width: 100vw;
+    width: 100%;
     overflow-x: hidden;
     float: calc(
     );
@@ -271,7 +65,8 @@ nav h1{
     font-size: 30px;
 } 
 nav li a:hover{
-    background-color: burlywood;
+    background-color: white;
+    color: rgb(27, 95, 197);
 }
 .hamburger{
     display: none;
@@ -311,13 +106,13 @@ nav li a:hover{
     font-size: 35px;
 }
 .texte2{
-    font-size: 50px;
+    font-size: 70px;
     color: transparent;
     -webkit-text-stroke: 2px rgba(255, 255, 255, 0.521);
 
 }
 .texte3{
-    font-size: 40px;
+    font-size: 20px;
 }
 .texte4 a{
     text-decoration: none;
@@ -403,7 +198,7 @@ nav li a:hover{
 /*deuxiéme page*/
 .page2{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     font-family: "Quicksand",sans-serif;
     width: 100%;
     height: 1000px; 
@@ -413,15 +208,17 @@ nav li a:hover{
     height: 500px;
     border-radius: 50%;
     border: 10px solid rgba(33, 7, 177, 0.8);
-    margin-top: 300px;
+    margin-top: 280px;
     background-image: url(images/pexels-mikhail-nilov-8937868-removebg-preview.png);
     background-repeat: no-repeat;
-    margin-left: 30px;
 }
 .apropos{
     margin-top: 300px;
-    margin-left: 2px;
-    font-size: 30px;
+    font-size: 20px;
+    word-spacing: 10px;
+}
+.tex{
+    font-size: 3rem;
 }
 .one{
     background-color: rgb(126, 54, 194);
@@ -432,6 +229,8 @@ nav li a:hover{
     background-color: rgb(27, 95, 197);
     border-radius: 1000px;
     height: 50px;
+    margin-right: 20px;
+    margin-top: 50px;
    
 }
 .two a{
@@ -445,45 +244,61 @@ nav li a:hover{
 }
 .capture{
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
 }
-.descrip{
-    display: flex;
-    justify-content: space-around;
-} 
-.capt1{
+.cap1{
     width: 500px;
     height: 500px;
-    border-radius: 50%;
-    border: 3px solid #002eff;
+    border: 2px solid brown;
+}
+.cap1 a{
+    margin-left: 150px;
+    border: 2px solid brown;
+    text-decoration: none;
+    color  :red;
+    background-color: rgb(2, 0, 1);
+    padding: 10px;
+}
+.cap1 p{
+    font-size: 20px;
+    font-family:"Quicksand",sans-serif;
+    text-align: justify;
+    margin: 20px 20px;
+}
+.capt1{
+    width: 200px;
+    height: 100px;
+    border: 1px solid brown;
     background-image: url(images/écran.png);
     background-repeat: no-repeat;
-    background-size: 250px 500px;
+    background-size: 200px 150px;
     background-position: center;
+    margin-top: 100px;
+    margin-left: 150px;
 }
 .capt2{
-    width: 500px;
-    height: 500px;
-    border-radius: 10%;
-    border: 3px solid #002eff;
+    width: 200px;
+    height: 100px;
+    border: 1px solid brown;
     background-image: url(images/Capture.png);
     background-repeat: no-repeat;
-    background-size: 280px 500px;
+    background-size: 200px 150px;
     background-position: center;
+    margin-top: 100px;
+    margin-left: 150px;
 }
 .capt3{
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    border: 3px solid #002eff;
+    width: 200px;
+    height: 100px;
+    border: 1px solid brown;
     background-image: url(images/2022.png);
     background-repeat: no-repeat;
-    background-size: 280px 500px;
+    background-size: 200px 150px;
     background-position: center;
-}
-.lien{
-    display: flex;
-    justify-content: space-around;
+    margin-top: 100px;
+    margin-left: 150px;
+    
 }
 h3 {
 margin-left: 40%;
@@ -491,11 +306,6 @@ font-size: 5rem;
 margin-top: 100px;
 color: crimson;
 font-weight: bold;
-text-transform: capitalize;
-text-decoration-style: dashed;
-}
-.descrip{
-    justify-content: space-around;
 }
 .pagee3{
     display: flex;
@@ -506,15 +316,19 @@ text-decoration-style: dashed;
 .text{
     width: 30%;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 0px;
     margin-bottom: 200px;
-    font-size: 15px;
+    font-size: 20px;
     font-family:"Quicksand",sans-serif ;
+}
+.text strong{
+    font-size: 25px;
+    text-align: justify;
 }
 .progres{
     width: 50%;
     text-align: center;
-    margin-top: 200px;
+    margin-top:  0px;
     margin-bottom: 200px;
 }
 #file{
